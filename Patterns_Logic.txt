@@ -1,0 +1,39 @@
+HOW TO IDENTIFY  PATTERN LOGIC
+
+Trick 1: Break question into parts
+    Example: pyramid
+    Ask → Do I need spaces? stars? numbers? both?
+
+Trick 2: Outer loop → Rows
+    Inner loop → What repeats in row
+        
+        for i in range(rows):
+            for j in range(...):
+
+Trick 3: For number/string problems
+    Think:
+        Extract digit?
+        Reverse?
+        Compare?
+        Loop until number becomes 0?
+
+Trick 4: Recognize Common “Templates”
+    Fibonacci → previous 2 sum
+    Palindrome → reverse check
+    Prime → check divisibility
+    Pattern → nested loops
+    Factorial → multiplication loop
+
+
+Must Known 
+    ✔ Fibonacci
+    ✔ Palindrome (number + string)
+    ✔ Prime
+    ✔ Armstrong
+    ✔ Factorial
+    ✔ Reverse number
+    ✔ Sum of digits
+    ✔ List operations
+    ✔ Dictionary basics
+    ✔ Set basics
+    ✔ Patterns (3–4 types)
