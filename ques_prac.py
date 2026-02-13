@@ -79,3 +79,66 @@ print("They are", *v)
 print(f"Number of consonants in the given string are {len(c)}")
 print("They are", *c)
 '''
+
+# first non repeating character in a string
+'''
+a = input()
+res = {}
+for i in a:
+    res[i] = res.get(i,0) + 1
+for i in a:
+    if res[i] == 1:
+        print(i)
+        break
+else:
+    print("No non repeating character")
+'''
+
+# most frequent character in a string
+'''
+a = input()
+res = {}
+for i in a:
+    res[i] = res.get(i,0) + 1
+max_freq = max(res.values())
+for i in res:
+    if res[i] == max_freq:
+        print(i)
+        break
+'''
+
+# longest word in the string
+'''
+a = input().split()
+l = ""
+for i in a:
+    if len(i) > len(l):
+        l = i
+print(l)
+'''
+
+# check if 2 strings anagrams
+'''
+a = input()
+b = input()
+print("Anagrams" if sorted(a) == sorted(b) else "Not an Anagram")
+'''
+
+# string compression 
+'''
+a = input()
+res = {}
+for i in a:
+    res[i] = res.get(i,0) + 1
+for key,value in res.items():
+    print(f"{key}{value}",end="")
+'''
+
+# count words in a paragraph
+'''
+a = input().split()
+c = 0
+for i in a:
+    c += 1
+print(c)
+'''
